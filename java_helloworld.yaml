@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: java_helloworld
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: java_helloworld
+    spec:
+      containers:
+      - name: java_helloworld
+        image: upasana/java_helloworld:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: regcred
