@@ -12,7 +12,33 @@ Create **Docker image** of a **java jar file** and manage the container image us
 
 ### [Kubernetes](kubernetes.io)
 * It is an open source container orchestration tool.
-* It is used to automate  deployments, scaling, and operations of application containers across clusters of hosts
-* Kubernetes is capable of doing auto-placement, auto-restart, auto-replication and auto-healing of containers extremely well. 
+* It is used to **automate  deployments, scaling, and operations of application** containers across clusters of hosts
+* Kubernetes is capable of doing **auto-placement, auto-restart, auto-replication and auto-healing of containers** extremely well. 
 
+---
 
+To create docker image of a runnable jar file:
+
+1) Clone the repository
+
+```
+git clone 
+```
+
+2) Open command prompt or powershell and build the dockerfile
+
+```
+docker build -t java_helloworld .
+```
+(Note: Don't forget to put dot (.) at the end of the command)
+
+3) Check docker-images 
+```
+docker images
+```
+
+4) Run the docker image
+
+```
+docker run java_helloworld
+```
