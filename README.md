@@ -32,13 +32,16 @@ docker build -t java_helloworld .
 ```
 (Note: Don't forget to put dot (.) at the end of the command)
 
+![](https://github.com/Upa005/Docker-Kubernetes-jar-file/blob/master/images/03_build.PNG)
+
 3) Check docker-images 
 ```
 docker images
 ```
-
+![](https://github.com/Upa005/Docker-Kubernetes-jar-file/blob/master/images/image.PNG)
 4) Run the docker image
 
 ```
 docker run java_helloworld
 ```
+![](https://github.com/Upa005/Docker-Kubernetes-jar-file/blob/master/images/04_run.PNG)
