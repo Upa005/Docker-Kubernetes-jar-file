@@ -1,2 +1,18 @@
 # Docker-Kubernetes-jar-file
-Create Docker image of a java jar file and manage the container using Kubernetes
+Create **Docker image** of a **java jar file** and manage the container image using **Kubernetes**
+
+### [Docker](https://www.docker.com/)
+* Docker is a open source tool. 
+* It is designed to makes it easier to create, deploy and run applications by using containers.
+* Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package, called **image**.
+* It ensures that the application will run the same no matter which server or laptop its running on.
+* This way, it **eliminates** the **“it works on my machine”** problem.
+* Developers will not spend time in setting up environments or debugging environment-specific issues. 
+* **Ensures consistent environments** from development to production.
+
+### [Kubernetes](kubernetes.io)
+* It is an open source container orchestration tool.
+* It is used to automate  deployments, scaling, and operations of application containers across clusters of hosts
+* Kubernetes is capable of doing auto-placement, auto-restart, auto-replication and auto-healing of containers extremely well. 
+
+
