@@ -70,3 +70,10 @@ docker push yourusername/java_helloworld
 
 ---
 
+**Manage image container** using Kubernetes
+
+Create container by running yaml file
+
+```
+kubectl apply -f java_helloworld.yaml
+```
