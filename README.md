@@ -39,6 +39,7 @@ docker build -t java_helloworld .
 docker images
 ```
 ![](https://github.com/Upa005/Docker-Kubernetes-jar-file/blob/master/images/image.PNG)
+
 4) Run the docker image
 
 ```
