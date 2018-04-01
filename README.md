@@ -17,7 +17,7 @@ Create **Docker image** of a **java jar file** and manage the container image us
 
 ---
 
-To create docker image of a runnable jar file:
+**Create docker image** of a runnable jar file:
 
 1) Clone the repository
 
@@ -46,3 +46,27 @@ docker images
 docker run java_helloworld
 ```
 ![](https://github.com/Upa005/Docker-Kubernetes-jar-file/blob/master/images/04_run.PNG)
+
+---
+**Push docker image** to [docker hub](https://hub.docker.com/)
+
+1) Log in to Docker Hub. Enter your password when prompted
+
+```
+docker login --username=yourusername --email=youremail@company.com
+```
+
+2) Tag your image
+
+```
+docker tag java_helloworld yourusername/java_helloworld:latest
+```
+
+3) Push your image to docker hub repository
+
+```
+docker push yourusername/java_helloworld
+```
+
+---
+
